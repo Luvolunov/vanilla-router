@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Router</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+    <div class="app" id="app">
+        <header class="header">
+            <h2 class="header__title">Simple router</h2>
+            <nav class="menu">
+                <a class="menu__item" router-link="/home">Home</a>
+                <a class="menu__item" router-link="/account">Account</a>
+            </nav>
+        </header>
+        <main class="main" id="main"></main>
+    </div>
 </body>
 </html>

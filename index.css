@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    margin: 0;
+    padding: 20px;
+    color: white;
+    background-color: #0e79b2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title{
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__item {
+    display: block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+    background-color: #f39237;
+    color: white;
+}
+
+.home, .account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-size: 2rem;
+}
