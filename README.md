@@ -3,7 +3,7 @@
 Router was built with vanilla javascript.
 
 ## Design patterns
-The app contains sush patterns as observer, factory, singleton, etc.
+The app contains such patterns as observer, factory, singleton, etc.
 
 ## Items
 There are in app:
